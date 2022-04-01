@@ -1,0 +1,41 @@
+header {
+  background-color: lightblue;
+  background-image: linear-gradient(to right, blue, lightblue);
+  top: 0%;
+  height: 8rem;
+  border: black solid;
+
+  .contenedorNavegacion {
+    width: 95%;
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+
+    .logo {
+      width: 4rem;
+      height: auto;
+      margin: 1rem;
+      animation: efecto_logo 2s ease;
+    }
+
+    .listaNavegacion {
+      font-size: 1.7rem;
+
+      li {
+        display: inline-block;
+        list-style: none;
+
+        a {
+          color: black;
+          text-decoration: none;
+          padding: 15px;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

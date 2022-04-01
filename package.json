@@ -1,0 +1,23 @@
+{
+  "name": "german-villalba---5ta-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:style"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villalbagerman/proyecto-coder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/villalbagerman/proyecto-coder/issues"
+  },
+  "homepage": "https://github.com/villalbagerman/proyecto-coder#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

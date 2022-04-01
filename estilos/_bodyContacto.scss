@@ -1,0 +1,49 @@
+.contact-form {
+  margin: 2rem;
+  padding: 4rem;
+
+  .contactanos {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  p {
+    margin: 2rem;
+    padding: 4rem;
+  }
+
+  form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background: none;
+    outline: 0;
+    color: rgb(158, 136, 226);
+    border-bottom: 1px solid rgb(25, 25, 184);
+  }
+
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background: none;
+    outline: 0;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(12, 12, 31);
+  }
+
+  form button {
+    background: rgb(89, 79, 223);
+    border: 0;
+    padding: 1rem;
+    width: 300px;
+    cursor: pointer;
+
+    &:hover {
+      background: rgb(14, 14, 56);
+      color: #fff;
+      transition: background-color 1s ease-out;
+      outline: 0;
+    }
+  }
+}

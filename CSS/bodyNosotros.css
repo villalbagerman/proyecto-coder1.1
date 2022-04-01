@@ -1,0 +1,23 @@
+.contenedorNosotros {
+  height: 100%;
+}
+
+.contenedorNosotros .historia {
+  padding: 10px;
+  text-align: center;
+  font-family: montserrat, sans-serif;
+  margin: 3rem;
+  font-size: 30px;
+}
+
+.contenedorNosotros .historia p {
+  margin: 2rem;
+  font-size: 30px;
+}
+
+.contenedorNosotros .tituloNosotros {
+  text-align: center;
+  margin: 2rem;
+  font-size: 50px;
+}
+/*# sourceMappingURL=bodyNosotros.css.map */

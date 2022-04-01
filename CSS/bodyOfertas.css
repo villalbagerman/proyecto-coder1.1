@@ -1,0 +1,87 @@
+body {
+  background: #dfe2df;
+  font-family: "open sans";
+}
+
+body .nombrePagina2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+body .parrafoExplicacion {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+body .contenedorOfertas {
+  max-width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin: auto;
+  margin-bottom: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .contenedorOfertas .tabla {
+  width: 400px;
+  height: 900px;
+  margin: auto;
+  border: 1px solid #343759;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 4px 0px #343759;
+          box-shadow: 0px 0px 4px 0px #343759;
+  padding: 75px;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: #343759;
+}
+
+body .contenedorOfertas .tabla:hover {
+  background: #414bd1;
+  color: #f1f1f2;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+body .contenedorOfertas .tabla h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+body .contenedorOfertas .tabla img {
+  width: 64px;
+  margin-bottom: 35px;
+}
+
+body .contenedorOfertas .tabla h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+body .contenedorOfertas .tabla p {
+  display: block;
+  margin-bottom: 20px;
+}
+
+body .contenedorOfertas .tabla .boton {
+  display: inline-block;
+  width: 150px;
+  padding: 12px;
+  background: #cfd1f1;
+  text-decoration: none;
+  color: #0e1870;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin: auto;
+}
+/*# sourceMappingURL=bodyOfertas.css.map */

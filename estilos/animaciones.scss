@@ -1,0 +1,25 @@
+/* ANIMACION DEL LOGO */
+
+@keyframes efecto_logo {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/* ANIMACION TITULO */
+
+@keyframes efecto_titulo {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
