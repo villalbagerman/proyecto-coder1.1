@@ -431,6 +431,7 @@ body .contenedorOfertas .tabla h3 {
 body .contenedorOfertas .tabla p {
   display: block;
   margin-bottom: 20px;
+  font-size: 40px;
 }
 
 body .contenedorOfertas .tabla .boton {
